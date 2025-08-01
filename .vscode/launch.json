@@ -3,11 +3,17 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch JavaFX App",
+      "name": "Main",
       "request": "launch",
-      "mainClass": "Main",
-      "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-24.0.2/lib\" --add-modules javafx.controls,javafx.fxml",
-      "cwd": "${workspaceFolder}/bin"
+      "mainClass": "com.amkangethe.financedashboard.Main",
+      "projectName": "finance-dashboard_43231fe0"
+    },
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "com.amkangethe.financemgr.Main",
+      "projectName": "finance-dashboard"
     }
   ]
 }
